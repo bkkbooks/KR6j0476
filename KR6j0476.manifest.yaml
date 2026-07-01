@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6j0476/v1
+canonical_location: https://kanripo.org/bkk/KR6j0476/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 北方毘沙門天王隨軍護法真言
+  identifiers:
+    alt_id:
+    - T21n1248
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1248.xml
+    old_id: T21n1248
+  edition:
+    short: bkk
+editions:
+- short: 原
+  label: 原
+  source_xml_id: wit1
+- short: 甲
+  label: 甲
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0476_000.yaml, hash: 'sha256:f495b3867ee19e2d865b25027f85e7965617ee06733ab2621f9f58cc0434e474'}
+  - {seq: 1, filename: KR6j0476_001.yaml, hash: 'sha256:c6784b9d68182a3eccc582c47e7e2cae0a227b87d3b7ed280ea8211421908744'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0476_001.markers.yaml, hash: 'sha256:71b973727fcdf7b17d4c9e4332f538aaeb3a8b568ba4188008094cce7cd609b0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0476_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2818
+  label: 北方毘沙門天王隨軍護法真言
+  type: juan
+  level: 1
+hash: sha256:e1f286de3e04f8a5ca256b75a1aff44f5a9e44d46b361b2f1a93dbb2262576de
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
