@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0476_000.yaml, hash: 'sha256:f495b3867ee19e2d865b25027f85e7965617ee06733ab2621f9f58cc0434e474'}
-  - {seq: 1, filename: KR6j0476_001.yaml, hash: 'sha256:c6784b9d68182a3eccc582c47e7e2cae0a227b87d3b7ed280ea8211421908744'}
+  - {seq: 1, filename: KR6j0476_001.yaml, hash: 'sha256:a7497acb4ca34c2f3e97315fb2951d35073e77a4bf6695ceff7e2eeedaeb83be'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0476_001.markers.yaml, hash: 'sha256:71b973727fcdf7b17d4c9e4332f538aaeb3a8b568ba4188008094cce7cd609b0'}
+  - {seq: 0, role: markers, filename: assets/KR6j0476_000.markers.yaml, hash: 'sha256:263f7a0ecb730e3ddc9762ffb9cd7097953ee269b5304cec02843431cda1bccd'}
+  - {seq: 1, role: markers, filename: assets/KR6j0476_001.markers.yaml, hash: 'sha256:38f589176d2b02ce300144e8bcda7f22b587b76509aab6fccd0d61bd5dc58375'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 北方毘沙門天王隨軍護法真言
   type: juan
   level: 1
-hash: sha256:e1f286de3e04f8a5ca256b75a1aff44f5a9e44d46b361b2f1a93dbb2262576de
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c0c739c5495fca2a8ffe1a4510e8b742aa0ce60452399844b8a1a040b933a92b
