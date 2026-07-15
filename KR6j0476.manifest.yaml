@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0476/v1
 canonical_location: https://kanripo.org/bkk/KR6j0476/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 北方毘沙門天王隨軍護法真言
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0476_000.yaml, hash: 'sha256:f495b3867ee19e2d865b25027f85e7965617ee06733ab2621f9f58cc0434e474'}
-  - {seq: 1, filename: KR6j0476_001.yaml, hash: 'sha256:a7497acb4ca34c2f3e97315fb2951d35073e77a4bf6695ceff7e2eeedaeb83be'}
+  - {seq: 1, filename: KR6j0476_001.yaml, hash: 'sha256:f7b08286e5ea4692b3ae2ae62fd4d5a133dec999f3d6bd927dcffc7974515d1e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0476_000.markers.yaml, hash: 'sha256:263f7a0ecb730e3ddc9762ffb9cd7097953ee269b5304cec02843431cda1bccd'}
-  - {seq: 1, role: markers, filename: assets/KR6j0476_001.markers.yaml, hash: 'sha256:38f589176d2b02ce300144e8bcda7f22b587b76509aab6fccd0d61bd5dc58375'}
+  - {seq: 1, role: markers, filename: assets/KR6j0476_001.markers.yaml, hash: 'sha256:ce82e659171fcbbbbe003a7f462582b0a468fbb7a216157222e25f6f9cd13c3c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 北方毘沙門天王隨軍護法真言
   type: juan
   level: 1
-hash: sha256:c0c739c5495fca2a8ffe1a4510e8b742aa0ce60452399844b8a1a040b933a92b
+hash: sha256:1e026ba891b99fcb7ea87d681c5c9d18bb9badfc2666dfd21e8dce262e234002
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
